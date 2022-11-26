@@ -1,0 +1,15 @@
+#https://blog.betrybe.com/ferramentas/oh-my-zsh/
+#https://github.com/ohmyzsh
+#https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes
+#https://github.com/zsh-users/zsh-syntax-highlighting
+#https://brew.sh/
+#https://fig.io/user-manual/linux
+
+#Instalar: ZSH, BREW, OH-MY-ZSH, DOCKER, KUBERNETES, GCLOUD, AWS-CLI, VIM, FIG
+
+===============================================
+
+sudo apt-get install zsh 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+curl -SsL https://pkg.fig.io/install.sh | bash
